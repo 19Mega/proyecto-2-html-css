@@ -1,0 +1,81 @@
+div{
+
+}
+  
+.c-black{
+	background-color: rgb(51, 51, 51);
+}
+
+.nav-bar{
+	color:rgb(241, 241, 241);
+	text-align: center;
+	font-size: 22px;
+	border-bottom: 5px solid rgb(73, 71, 73);	
+}
+
+  .content-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .photo-section {	
+	border: 1px solid rgb(255, 255, 255);
+	border-top: 3px solid rgb(173, 173, 173);	
+	border-bottom: 3px solid rgb(173, 173, 173);	
+	background-color: rgb(255, 255, 255);
+  }
+
+  .photo {
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+  }
+
+  .photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+  }
+
+  .photo-header-section {
+	display: flex;
+	height: 23px;
+	text-align: center;
+	width: 400px;
+	overflow-wrap: break-word;
+	margin-top: 5px;
+	margin-bottom: 8px;
+  }
+  
+  .title-section {
+	text-align: left;
+	width: 72%;
+	color: black;
+	font-size: 23px;
+	height: 23px;
+	font-weight: bold; 
+	padding-left: 10px; 
+	display: flex;
+	position: relative;
+  }
+  
+  .date-section {
+	text-align: right;
+	width: 28%;
+	color: black;
+	font-size: 23px;
+	height: 30px;
+	padding-right: 10px;
+	position: relative;
+  }
+
+  .footer-section {
+	width: 400px;
+	text-align: justify;
+	color:black;
+	padding:10px;
+  }
+
